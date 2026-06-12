@@ -2,7 +2,7 @@
 name: agnes-ai-integration
 description: "一键集成 Agnes AI 三大免费模型：文本(agnes-2.0-flash)、生图(agnes-image-2.1-flash)、生视频(agnes-video-v2.0)。提供完整配置脚本和 CLI 工具，任何 agent 框架加载此 skill 后输入 API Key 即可使用。"
 version: 2.0.0
-author: "陈鹏 + Agnes-2.0-Flash"
+author: "champion1997"
 tags: [agnes, sapiens, api, image-generation, video-generation, multi-modal, free]
 ---
 
