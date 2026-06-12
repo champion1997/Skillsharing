@@ -54,9 +54,31 @@ auxiliary:
 #### Claude Code / Codex / 其他 OpenAI 兼容客户端
 ```
 OPENAI_BASE_URL=https://apihub.agnes-ai.com/v1
-OPENAI_API_KEY=sk-xxx
+OPENAI_API_KEY=***
 MODEL=agnes-2.0-flash
 ```
+
+## 生图示例
+
+### 示例 1：高端服务式公寓
+
+- **Prompt：** `一个高端服务式公寓的豪华客厅，现代简约风格，落地窗可以看到城市天际线，暖色调灯光，摄影级质量`
+- **尺寸：** 1024x768
+- **结果：** https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/17ee7677fd7e4a199ce109def824ec8e.png
+
+### 示例 2：房地产投资报告封面
+
+- **Prompt：** `中国房地产投资分析报告封面，金色建筑剪影，深蓝色背景，专业商务风格，包含数据图表元素`
+- **尺寸：** 1024x768
+- **结果：** https://platform-outputs.agnes-ai.space/images/text-to-image/2026/06/460d62a15f9f4f85a89de379a58395e5.png
+
+## 视频示例
+
+### 示例：橘猫窗台
+
+- **Prompt：** `一只橘猫坐在阳光下的窗台上，镜头缓慢推进，金色光线，电影质感`
+- **参数：** 241 帧 / 24fps = 约 10 秒
+- **结果：** https://storage.googleapis.com/agnes-aigc/aigc/videos/2026/06/12/video_1601b17e0d6961188c26eb6841719e763003e3a2bab9d2f5.mp4
 
 ## 生图 CLI 工具
 
