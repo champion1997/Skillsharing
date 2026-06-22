@@ -1,0 +1,86 @@
+{
+  "name": "global-market-research",
+  "version": "1.0.0",
+  "description": "Five-role expert team for real estate monitoring, enterprise deep-dive research, overseas market tracking, and professional report generation with standardized pipeline.",
+  "agents": [
+    "./agents/global-market-research-team-lead.md",
+    "./agents/city-researcher.md",
+    "./agents/enterprise-analyst.md",
+    "./agents/overseas-tracker.md",
+    "./agents/report-designer.md"
+  ],
+
+  "expertType": "team",
+  "agentName": "global-market-research-team-lead",
+  "teamInfo": {
+    "leadAgent": "global-market-research-team-lead",
+    "memberAgents": ["city-researcher", "enterprise-analyst", "overseas-tracker", "report-designer"]
+  },
+
+  "displayName": {
+    "en": "Global Market Research",
+    "zh": "海内外市场调研专家团"
+  },
+  "profession": {
+    "en": "Global Market Research Expert Team",
+    "zh": "海内外市场调研专家团"
+  },
+  "displayDescription": {
+    "en": "Five-role research team covering city property monitoring, enterprise analysis, overseas tracking, and professional report generation — one person running the full pipeline.",
+    "zh": "五角色协作市场调研团队，覆盖城市地产监测、企业深度研究、海外市场追踪和专业报告输出，一人跑通全流程"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "帮我研究一下XX公司的情况",
+    "en": "Research company XX for me"
+  },
+  "plugin": "global-market-research",
+  "tags": [
+    { "en": "Market Research", "zh": "市场调研" },
+    { "en": "Real Estate", "zh": "地产研究" },
+    { "en": "Overseas Investment", "zh": "海外投资" }
+  ],
+  "quickPrompts": [
+    { "en": "Research company XX for me", "zh": "帮我研究一下XX公司的情况" },
+    { "en": "Prepare this month's Shenzhen inspection plan", "zh": "帮我准备深圳本月的考察计划" },
+    { "en": "Analyze the latest FDI policy changes in Vietnam", "zh": "帮我分析越南最新的外资政策变化" }
+  ],
+  "members": [
+    {
+      "id": "global-market-research-team-lead",
+      "displayName": { "en": "Yiguan", "zh": "易观" },
+      "profession": { "en": "Research Orchestrator", "zh": "研究编排主任" },
+      "avatar": "avatars/global-market-research-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "city-researcher",
+      "displayName": { "en": "Chengyan", "zh": "城研" },
+      "profession": { "en": "City Real Estate Researcher", "zh": "城市地产研究员" },
+      "avatar": "avatars/city-researcher.png",
+      "role": "member"
+    },
+    {
+      "id": "enterprise-analyst",
+      "displayName": { "en": "Qixi", "zh": "企析" },
+      "profession": { "en": "Enterprise Analyst", "zh": "企业深度分析师" },
+      "avatar": "avatars/enterprise-analyst.png",
+      "role": "member"
+    },
+    {
+      "id": "overseas-tracker",
+      "displayName": { "en": "Haizhui", "zh": "海追" },
+      "profession": { "en": "Overseas Market Tracker", "zh": "海外市场追踪师" },
+      "avatar": "avatars/overseas-tracker.png",
+      "role": "member"
+    },
+    {
+      "id": "report-designer",
+      "displayName": { "en": "Chengbao", "zh": "呈报" },
+      "profession": { "en": "Report Designer", "zh": "报告输出专员" },
+      "avatar": "avatars/report-designer.png",
+      "role": "member"
+    }
+  ]
+}
